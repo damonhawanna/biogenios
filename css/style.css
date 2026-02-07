@@ -47,3 +47,43 @@ footer {
   background: #222;
   color: #fff;
 }
+.app-section {
+  background: #f5f7f8;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.app-image img {
+  max-width: 220px;
+  width: 100%;
+}
+
+.app-info {
+  max-width: 400px;
+}
+
+.app-info h2 {
+  margin-bottom: 10px;
+}
+
+.app-info p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.app-size {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+}
+
